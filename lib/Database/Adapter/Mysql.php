@@ -7,18 +7,23 @@
  * To change this template use File | Settings | File Templates.
  */
 
-require_once ('../../../config/db.php');
+class Database_Adapter_Mysql implements Database_Adapter_Interface {
 
-class Database_Adapter_Mysql {
+    private static $instance;
 
-    public function getConnection(){
+    public function getConnection($config){
+
+        if(!isset(self::$instance)){
 
         $dsn = $config['adapter'].":host=".$config['hostname'].";dbname=".$config['dbname'];
         try{
-            $pdo = new PDO($dsn,$config['user'],$config['password']);
+            self::$instance = new PDO($dsn,$config['user'],$config['password']);
         }
         catch(PDOException $e){
             echo $e->getMessage();
+
+            }
         }
+        return self::$instance;
     }
 }

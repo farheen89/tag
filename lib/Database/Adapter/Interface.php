@@ -9,6 +9,6 @@
 
 interface Database_Adapter_Interface{
 
-    public function getConnection($config);
+    public function getConnection($dbconfig);
 
 }

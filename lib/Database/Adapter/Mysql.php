@@ -11,13 +11,13 @@ class Database_Adapter_Mysql implements Database_Adapter_Interface {
 
     private static $instance;
 
-    public function getConnection($config){
+    public function getConnection($dbconfig){
 
         if(!isset(self::$instance)){
 
-        $dsn = $config['adapter'].":host=".$config['hostname'].";dbname=".$config['dbname'];
+        $dsn = $dbconfig['adapter'].":host=".$dbconfig['hostname'].";dbname=".$dbconfig['dbname'];
         try{
-            self::$instance = new PDO($dsn,$config['user'],$config['password']);
+            self::$instance = new PDO($dsn,$dbconfig['user'],$dbconfig['password']);
         }
         catch(PDOException $e){
             echo $e->getMessage();

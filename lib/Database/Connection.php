@@ -7,12 +7,15 @@
  * To change this template use File | Settings | File Templates.
  */
 
+
 class Database_Connection{
 
-    public static factory($config){
-    switch ($config['adapter']){
+    public static function factory($dbconfig){
+        switch ($dbconfig['adapter']){
 
-}
-}
+        case "mysql":
+            return Database_Adapter_Mysql::getConnection($dbconfig);
+     }
+    }
 
 }

@@ -7,8 +7,8 @@
  * To change this template use File | Settings | File Templates.
  */
 
-$config['adapter'] = "mysql";
-$config['hostname'] = "localhost";
-$config['dbname'] = "tag";
-$config['user'] = "root";
-$config['password'] = '';
+$dbconfig['adapter'] = "mysql";
+$dbconfig['hostname'] = "localhost";
+$dbconfig['dbname'] = "tag";
+$dbconfig['user'] = "tag";
+$dbconfig['password'] = 'olg1xgq3';

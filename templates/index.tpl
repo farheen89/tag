@@ -3,5 +3,8 @@
     <div id="header">
         {include file="header.tpl"}
     </div>
+    <div id="main">
+
+    </div>
 </div>
 

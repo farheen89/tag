@@ -5,6 +5,9 @@ namespace Livraria;
 use Zend\Mvc\ModuleRouteListener;
 use Zend\Mvc\MvcEvent;
 
+use Livraria\Model\CategoriaTable;
+
+
 class Module
 {
         public function getConfig()
@@ -20,6 +23,20 @@ class Module
                     __NAMESPACE__ => __DIR__ . '/src/' . __NAMESPACE__,
                 ),
             ),
+        );
+    }
+
+    public function getServiceConfig(){
+
+        return array(
+            'factories' => array(
+                'Livraria\Model\CategoriaService' => function($service) {
+                    $dbAdapter = $service->get('Zend\Db\Adapter\Adapter');
+                    $categoriaTable = new CategoriaTable($dbAdapter);
+                    $categoriaService = new Model\CategoriaService($categoriaTable);
+                    return $categoriaService;
+              }
+          ),
         );
     }
 }

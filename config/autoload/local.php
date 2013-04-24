@@ -1,8 +1,9 @@
 <?php
 
 return array(
-    'db' => array(
-        'username' => 'root',
-        'password' => 'root'
-    )
+    'db' => array (
+        'username' => 'zend',
+        'password' => 'zend'
+    ),
+
 );

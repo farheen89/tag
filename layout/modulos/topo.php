@@ -1,4 +1,3 @@
-<?php include_once $PATHMODULOS.'header.php'; ?>
 <div id="top">
     <div id="search-field">
         <form>

@@ -1,0 +1,1 @@
+<link rel="stylesheet" href="<?=$PATHCSS?>layout.css" type="text/css" media="all">

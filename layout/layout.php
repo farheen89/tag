@@ -6,6 +6,7 @@
     </div>
 
     <div id="main">
+        <?php include_once $PATHMODULOS.'main.php' ?>
     </div>
 
     <div id="footer">

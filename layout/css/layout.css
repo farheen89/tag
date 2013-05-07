@@ -17,12 +17,12 @@ a:visited{
 
 #page{
     width: 100%;
-    height: 800px;
 }
 
 #topo{
     width: 100%;
-    height: 110px;
+    height: 90px;
+    margin: 0 auto;
     background: #0e8dda; /* Old browsers */
     background: -moz-linear-gradient(top,  #0e8dda 0%, #23a1ed 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0e8dda), color-stop(100%,#23a1ed)); /* Chrome,Safari4+ */
@@ -35,9 +35,9 @@ a:visited{
 
 #top{
     width: 1200px;
-    height: 100px;
+    height: 80px;
     margin: 0 auto;
-    padding-top: 10px;
+    padding-top: 15px;
     background: #0e8dda; /* Old browsers */
     background: -moz-linear-gradient(top,  #0e8dda 0%, #23a1ed 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0e8dda), color-stop(100%,#23a1ed)); /* Chrome,Safari4+ */

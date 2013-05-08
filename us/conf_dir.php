@@ -14,4 +14,12 @@ echo "<font size=\"4\"><strong>Diretorio de Layout: </strong></font>".$PATHLAYOU
 
 echo "<font size=\"4\"><strong>Diretorio de Modulos: </strong></font>".$PATHMODULOS."<br><br>";
 
+echo "<font size=\"4\"><strong>Diretorio de Imagens: </strong></font>".$PATHIMG."<br><br>";
+
 echo "<font size=\"4\"><strong>Diretorio de CSS: </strong></font>".$PATHCSS."<br><br>";
+
+echo "<font size=\"4\"><strong>Diretorio de Library: </strong></font>".$PATHLIB."<br><br>";
+
+echo "<font size=\"4\"><strong>Diretorio de Database: </strong></font>".$PATHDB."<br><br>";
+
+echo "<font size=\"4\"><strong>Diretorio de Js: </strong></font>".$PATHJS."<br><br>";

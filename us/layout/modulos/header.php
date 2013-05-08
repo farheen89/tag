@@ -7,8 +7,5 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="<?=$PATHCSS?>layout.css" type="text/css" media="all">
-<link rel="stylesheet" type="text/css" href="<?=$PATHCSS?>responsive.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="<?=$PATHCSS?>settings.css" media="screen" />
-
 <title>Título</title>
 </head>

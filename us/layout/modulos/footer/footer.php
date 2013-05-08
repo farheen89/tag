@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="http://www.blue-broker.com.br/us/layout/modulos/footer/css/footer.css" media="screen" />
 <div id="footer_container">
     <div id="footer_col1">
         <font size="4"><strong>XXX</strong></font><br>

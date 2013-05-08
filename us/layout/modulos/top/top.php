@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="http://www.blue-broker.com.br/us/layout/modulos/top/css/top.css" media="screen" />
 <div id="top">
     <div id="search-field">
         <form>

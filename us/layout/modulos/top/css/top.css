@@ -1,12 +1,5 @@
 @charset "utf-8";
 
-body {
-    margin:0;
-    padding:0;
-    align: center;
-    text-align:center;
-}
-
 a:link{
     color: #000000;
 }
@@ -16,10 +9,11 @@ a:visited{
 }
 
 #top{
+    border: 0;
     width: 1200px;
-    height: 80px;
+    height: 71px;
     margin: 0 auto;
-    padding-top: 5px;
+    padding-top: 19px;
     background: #0e8dda; /* Old browsers */
     background: -moz-linear-gradient(top,  #0e8dda 0%, #23a1ed 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0e8dda), color-stop(100%,#23a1ed)); /* Chrome,Safari4+ */
@@ -32,19 +26,18 @@ a:visited{
 
 #search-field{
     width: 550px;
-    height: 50px;
+    height: 52px;
     background-color: #FFF;
     margin: 0 auto;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
-
 }
 
 #search_form{
     width: 440px;
-    height: 50px;
+    height: 49px;
     font-family: verdana;
     font-size: 18px;
     color: #324957;
@@ -55,7 +48,6 @@ a:visited{
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
-    line-height:50px;
     border-style: inset;
 }
 
@@ -67,9 +59,9 @@ a:visited{
     font-size: 24px;
     color: #FFF;
     border: 0px;
-    margin-right: 1px;
+    margin-right: 2px;
     float: right;
-    margin-top: 1px;
+    margin-top: 2px;
     cursor:pointer;
 }
 

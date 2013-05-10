@@ -9,7 +9,9 @@
         <div id="coluna_1"></div>
         <div id="coluna_2"></div>
         <div id="coluna_3">
-            <?php include_once $PATHMODULOS.'banner/banner.php' ?>
+            <div id="banner">
+                <?php //include_once $PATHMODULOS.'banner/banner.php' ?>
+            </div>
         </div>
     </div>
 

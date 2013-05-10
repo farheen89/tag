@@ -63,3 +63,10 @@ a:visited{
     float: left;
 }
 
+#banner{
+    background-color: #666;
+    width: 850px;
+    height: 400px;
+    float: left;
+}
+

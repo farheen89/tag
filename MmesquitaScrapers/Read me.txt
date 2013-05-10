@@ -1,0 +1,55 @@
+
+
+
+Install:
+========================
+
+ 
+ 1- Please upload all the files and directories in any directory on your server.
+
+ 2- Edit "includes/config.inc.php" for database settings and use "includes/tbl_products.sql" for database generation
+ 
+ 3- Open browser and enter 
+ 
+ http://www.yourserver.com/MmesquitaScrapers/bodybuilding.php
+ http://www.yourserver.com/MmesquitaScrapers/healthdesigns.php
+
+
+
+
+
+
+Server Requirements
+========================
+
+
+ Any Linux/Windows or Other server that supports folowing:
+
+ php, curl with ssl support, safemode "off", openbasedirectory "disabled"
+
+ For MSN Messenger Script sockets support is required
+
+
+
+
+
+
+Customer Notes
+========================
+
+
+ 1-  Please note comments in code while integrating script into your website
+
+ 2-  Do not edit commented part of code, yes... you can customize whole layout/look & feel of script
+
+ 3-  In case of any question or help, please contact at masood@sigmavisual.com
+
+
+
+
+
+
+Thanks
+
+Sigma Visual Technologies
+http://www.sigmavisual.com/

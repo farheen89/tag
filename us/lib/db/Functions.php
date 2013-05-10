@@ -25,6 +25,14 @@ abstract class Functions{
 
     }
 
+    public function find(){
+        $db = $this->getDb();
+        $stm = $db->prepare("select * from " . $this->_table . "where id=:id");
+        $stm->bindValue(":id",$this->getId());
+        $stm->execute();
+        return $stm->fetch(PDO::FETCH_ASSOC);
+    }
+
     public function getDb(){
         global $config;
         return Connection::factory($config);

@@ -138,8 +138,8 @@
         var api = tpj('.banner').revolution(
             {
                 delay:9000,
-                startheight:500,
-                startwidth:960,
+                startheight:400,
+                startwidth:850,
 
                 hideThumbs:200,
 

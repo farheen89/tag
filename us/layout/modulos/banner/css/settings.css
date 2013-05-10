@@ -314,7 +314,7 @@ website:   	http://www.themepunch.com
 
 
 
-	@media only screen and (min-width: 768px) and (max-width: 959px) {
+	@media only screen and (min-width: 768px) and (max-width: 850px) {
 
 	 }
 
@@ -411,9 +411,9 @@ website:   	http://www.themepunch.com
         -o-user-select: none;
 	}
 
-.tp-bannershadow.tp-shadow1 {	background:url(../img/assets/shadow1.png) no-repeat; background-size:100%; width:890px; height:30px; bottom:-30px;}
-.tp-bannershadow.tp-shadow2 {	background:url(../img/assets/shadow2.png) no-repeat; background-size:100%; width:890px; height:60px;bottom:-60px;}
-.tp-bannershadow.tp-shadow3 {	background:url(../img/assets/shadow3.png) no-repeat; background-size:100%; width:890px; height:60px;bottom:-60px;}
+.tp-bannershadow.tp-shadow1 {	background:url(../img/assets/shadow1.png) no-repeat; background-size:100%; width:850px; height:30px; bottom:-30px;}
+.tp-bannershadow.tp-shadow2 {	background:url(../img/assets/shadow2.png) no-repeat; background-size:100%; width:850px; height:60px;bottom:-60px;}
+.tp-bannershadow.tp-shadow3 {	background:url(../img/assets/shadow3.png) no-repeat; background-size:100%; width:850px; height:60px;bottom:-60px;}
 
 
 /********************************

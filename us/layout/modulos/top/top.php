@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css" href="http://www.blue-broker.com.br/us/layout/modulos/top/css/top.css" media="screen" />
-<div id="top">
+<div id="top_search">
     <div id="search-field">
 
             <input id="search_form" type="text" value="" onKeyUp="lookup(this.value);" onBlur="fill();" />

@@ -7,6 +7,7 @@ abstract class Functions{
     protected $id = null;
     protected $_table = null;
 
+
     public function setId($id)
     {
         $this->id = $id;
@@ -17,20 +18,11 @@ abstract class Functions{
         return $this->id;
     }
 
-    public function fetchAll(){
+    public function listar(){
         $db = $this->getDb();
-        $stm = $db->prepare("Select * from " . $this->_table);
-        $stm->execute();
-        return $stm->fetchAll(PDO::FETCH_ASSOC);
-
-    }
-
-    public function find(){
-        $db = $this->getDb();
-        $stm = $db->prepare("select * from " . $this->_table . "where id=:id");
-        $stm->bindValue(":id",$this->getId());
-        $stm->execute();
-        return $stm->fetch(PDO::FETCH_ASSOC);
+        $stmt = $db->prepare("SELECT title FROM " . $this->_table);
+        $stmt->execute();
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
     public function getDb(){

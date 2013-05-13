@@ -1,0 +1,10 @@
+# BEGIN Gruppo Modulo Rewrite
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+# Change following path
+RewriteBase /path/to/folder/
+RewriteRule ^([A-Za-z0-9-]+)/?$ single.php?slug=$1 [L]
+</IfModule>
+
+# END Gruppo Modulo Rewrite

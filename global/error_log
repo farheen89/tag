@@ -1,0 +1,8 @@
+[13-May-2013 22:27:27] PHP Notice:  Undefined variable: PATHDB in /home/blueb123/public_html/global/config/General.php on line 21
+[13-May-2013 22:27:27] PHP Notice:  Undefined variable: PATHDB in /home/blueb123/public_html/global/config/General.php on line 22
+[13-May-2013 22:27:27] PHP Warning:  include_once(Mysql.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/blueb123/public_html/global/config/General.php on line 22
+[13-May-2013 22:27:27] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'Mysql.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/blueb123/public_html/global/config/General.php on line 22
+[13-May-2013 22:28:14] PHP Notice:  Undefined variable: PATHDB in /home/blueb123/public_html/global/config/General.php on line 21
+[13-May-2013 22:28:14] PHP Notice:  Undefined variable: PATHDB in /home/blueb123/public_html/global/config/General.php on line 22
+[13-May-2013 22:28:14] PHP Warning:  include_once(Mysql.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/blueb123/public_html/global/config/General.php on line 22
+[13-May-2013 22:28:14] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'Mysql.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/blueb123/public_html/global/config/General.php on line 22

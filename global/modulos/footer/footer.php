@@ -11,7 +11,7 @@ $footer = new FooterList();
         <font size="4"><strong>
                 <?php
                     foreach ($footer->listar() as $foot){
-                        if($foot['source']=="CMS_TITLE" && $foot['language']=="pt"){
+                        if($foot['source']=="CMS_TITLE" && $foot['language']=="en"){
                             echo $foot['title'];
                         }else{
                             echo "";
@@ -21,7 +21,7 @@ $footer = new FooterList();
         </strong></font><br>
                 <?php
                     foreach ($footer->listar() as $foot){
-                      if($foot['source']=="CMS" && $foot['language']=="pt"){
+                      if($foot['source']=="CMS" && $foot['language']=="en"){
                          echo "<li><a href=\"".$foot['url']."\" target=\"_blank\">".$foot['title']."</a></li>";
                       }else{
                          echo "";

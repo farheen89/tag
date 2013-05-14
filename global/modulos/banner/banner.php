@@ -37,38 +37,38 @@
 
 
             <!-- BOXFADE -->
-            <li data-transition="boxfade" data-slotamount="5"  data-masterspeed="300" data-thumb="http://www.blue-broker.com.br/us/layout/modulos/banner/img/thumbs/regular_thumb1.jpg" >
-                <img src="http://www.blue-broker.com.br/us/layout/modulos/banner/img/slides/image1.jpg">
+            <li data-transition="boxfade" data-slotamount="5"  data-masterspeed="300" data-thumb="http://www.blue-broker.com.br/global/layout/modulos/banner/img/thumbs/regular_thumb1.jpg" >
+                <img src="http://www.blue-broker.com.br/global/layout/modulos/banner/img/slides/image1.jpg">
                 <div class="caption lfb big_white"  data-x="400" data-y="80" data-speed="900" data-start="1700" data-easing="easeOutBack">Kickstart Your Website</div>
                 <div class="caption lft big_orange"  data-x="400" data-y="117" data-speed="900" data-start="1900" data-easing="easeOutBack"><span style="font-weight:normal;">With</span><em> Slider Revolution</em></div>
                 <div class="caption lfr medium_grey"  data-x="510" data-y="190" data-speed="300" data-start="2500" data-easing="easeOutExpo">Unlimited Transitions</div>
-                <div class="caption sfl" data-x="510" data-y="230" data-speed="300" data-start="2600" data-easing="easeOutExpo"><img src="http://www.blue-broker.com.br/us/layout/modulos/banner/img/tiles/check.png"></div>
+                <div class="caption sfl" data-x="510" data-y="230" data-speed="300" data-start="2600" data-easing="easeOutExpo"><img src="http://www.blue-broker.com.br/global/layout/modulos/banner/img/tiles/check.png"></div>
                 <div class="caption lfr small_text"  data-x="560" data-y="228" data-speed="300" data-start="2600" data-easing="easeOutExpo">Sliding, Fading, Slots, Box Transitions<br/>
                     <span style="color: #ffe400;">SLIDER REVOLUTION</span> has it all!</div>
-                <div class="caption sfl" data-x="510" data-y="280" data-speed="300" data-start="2900" data-easing="easeOutExpo"><img src="http://www.blue-broker.com.br/us/layout/modulos/banner/img/tiles/check.png"></div>
+                <div class="caption sfl" data-x="510" data-y="280" data-speed="300" data-start="2900" data-easing="easeOutExpo"><img src="http://www.blue-broker.com.br/global/layout/modulos/banner/img/tiles/check.png"></div>
                 <div class="caption lfr small_text"  data-x="560" data-y="287" data-speed="300" data-start="2900" data-easing="easeOutExpo">Responsive & Mobile Optimized</div>
-                <div class="caption sfl" data-x="510" data-y="330" data-speed="300" data-start="3200" data-easing="easeOutExpo"><img src="http://www.blue-broker.com.br/us/layout/modulos/banner/img/tiles/check.png"></div>
+                <div class="caption sfl" data-x="510" data-y="330" data-speed="300" data-start="3200" data-easing="easeOutExpo"><img src="http://www.blue-broker.com.br/global/layout/modulos/banner/img/tiles/check.png"></div>
                 <div class="caption lfr small_text"  data-x="560" data-y="328" data-speed="300" data-start="3200" data-easing="easeOutExpo">Customizable Navigation<br/>Arrows, Bullets, Thumbs</div>
                 <div class="caption sfb" data-x="560" data-y="380" data-speed="1000" data-start="3500" data-easing="easeOutBack"><a href="http://codecanyon.net/user/themepunch/portfolio?ref=themepunch" target="_blank" class="button red small">Don't you love this?</a></div>
             </li>
 
             <!-- SLIDE LEFT -->
-            <li data-transition="slideleft" data-slotamount="10"  data-masterspeed="300"  data-link="http://www.google.de" data-thumb="http://www.blue-broker.com.br/us/layout/modulos/banner/img/thumbs/regular_thumb2.jpg">
-                <img src="http://www.blue-broker.com.br/us/layout/modulos/banner/img/slides/image16.jpg"  >
+            <li data-transition="slideleft" data-slotamount="10"  data-masterspeed="300"  data-link="http://www.google.de" data-thumb="http://www.blue-broker.com.br/global/layout/modulos/banner/img/thumbs/regular_thumb2.jpg">
+                <img src="http://www.blue-broker.com.br/global/layout/modulos/banner/img/slides/image16.jpg"  >
                 <div class="caption lft big_white"  data-x="380" data-y="80" data-speed="900" data-start="1200" data-easing="easeOutBack">We Love Our Clients</div>
-                <div class="caption lfb" data-x="250" data-y="130" data-speed="900" data-start="1700" data-easing="easeOutBack"><img src="http://www.blue-broker.com.br/us/layout/modulos/banner/img/slides/company1.png"></div>
-                <div class="caption lfb" data-x="450" data-y="130" data-speed="900" data-start="2000" data-easing="easeOutBack"><img src="http://www.blue-broker.com.br/us/layout/modulos/banner/img/slides/company2.png"></div>
-                <div class="caption lfb" data-x="650" data-y="130" data-speed="900" data-start="2300" data-easing="easeOutBack"><img src="http://www.blue-broker.com.br/us/layout/modulos/banner/img/slides/company3.png"></div>
+                <div class="caption lfb" data-x="250" data-y="130" data-speed="900" data-start="1700" data-easing="easeOutBack"><img src="http://www.blue-broker.com.br/global/layout/modulos/banner/img/slides/company1.png"></div>
+                <div class="caption lfb" data-x="450" data-y="130" data-speed="900" data-start="2000" data-easing="easeOutBack"><img src="http://www.blue-broker.com.br/global/layout/modulos/banner/img/slides/company2.png"></div>
+                <div class="caption lfb" data-x="650" data-y="130" data-speed="900" data-start="2300" data-easing="easeOutBack"><img src="http://www.blue-broker.com.br/global/layout/modulos/banner/img/slides/company3.png"></div>
                 <div class="caption lfr medium_grey"  data-x="330" data-y="340" data-speed="300" data-start="2600" data-easing="easeOutExpo">Need Help with your Project?</div>
                 <div class="caption lfr medium_text"  data-x="630" data-y="342" data-speed="300" data-start="2800" data-easing="easeOutExpo"><a href="#">Get in Touch</a></div>
             </li>
 
             <!-- SLIDE DOWN -->
-            <li data-transition="slidedown" data-slotamount="1" data-masterspeed="300"  data-thumb="http://www.blue-broker.com.br/us/layout/modulos/banner/img/thumbs/regular_thumb3.jpg">
-                <img src="http://www.blue-broker.com.br/us/layout/modulos/banner/img/slides/image17.jpg"  >
-                <div class="caption sfb" data-x="0" data-y="380" data-speed="900" data-start="500" data-easing="easeOutBack"><img src="http://www.blue-broker.com.br/us/layout/modulos/banner/img/slides/floor.png"></div>
-                <div class="caption lfr" data-x="500" data-y="20" data-speed="700" data-start="800" data-easing="easeOutExpo"><img src="http://www.blue-broker.com.br/us/layout/modulos/banner/img/slides/dude1.png"></div>
-                <div class="caption lfr" data-x="550" data-y="20" data-speed="700" data-start="1000" data-easing="easeOutExpo"><img src="http://www.blue-broker.com.br/us/layout/modulos/banner/img/slides/girl1.png"></div>
+            <li data-transition="slidedown" data-slotamount="1" data-masterspeed="300"  data-thumb="http://www.blue-broker.com.br/global/layout/modulos/banner/img/thumbs/regular_thumb3.jpg">
+                <img src="http://www.blue-broker.com.br/global/layout/modulos/banner/img/slides/image17.jpg"  >
+                <div class="caption sfb" data-x="0" data-y="380" data-speed="900" data-start="500" data-easing="easeOutBack"><img src="http://www.blue-broker.com.br/global/layout/modulos/banner/img/slides/floor.png"></div>
+                <div class="caption lfr" data-x="500" data-y="20" data-speed="700" data-start="800" data-easing="easeOutExpo"><img src="http://www.blue-broker.com.br/global/layout/modulos/banner/img/slides/dude1.png"></div>
+                <div class="caption lfr" data-x="550" data-y="20" data-speed="700" data-start="1000" data-easing="easeOutExpo"><img src="http://www.blue-broker.com.br/global/layout/modulos/banner/img/slides/girl1.png"></div>
                 <div class="caption lfl very_big_white"  data-x="100" data-y="100" data-speed="300" data-start="1200" data-easing="easeOutExpo">GET THE</div>
                 <div class="caption lfl very_big_white"  data-x="100" data-y="160" data-speed="300" data-start="1300" data-easing="easeOutExpo">PARTY</div>
                 <div class="caption lfl very_big_white"  data-x="100" data-y="220" data-speed="300" data-start="1400" data-easing="easeOutExpo">STARTED</div>
@@ -76,16 +76,16 @@
             </li>
 
             <!-- SLOTFADE HORIZONTAL -->
-            <li data-transition="slotfade-horizontal"  data-masterspeed="300" data-slotamount="20" data-thumb="http://www.blue-broker.com.br/us/layout/modulos/banner/img/thumbs/regular_thumb4.jpg">
-                <img src="http://www.blue-broker.com.br/us/layout/modulos/banner/img/slides/image18.jpg"  >
+            <li data-transition="slotfade-horizontal"  data-masterspeed="300" data-slotamount="20" data-thumb="http://www.blue-broker.com.br/global/layout/modulos/banner/img/thumbs/regular_thumb4.jpg">
+                <img src="http://www.blue-broker.com.br/global/layout/modulos/banner/img/slides/image18.jpg"  >
                 <div class="caption lft big_white"  data-x="100" data-y="70" data-speed="1200" data-start="800" data-easing="easeOutBack">American Muscle Car</div>
                 <div class="caption lfl medium_grey"  data-x="270" data-y="180" data-speed="900" data-start="1200" data-easing="easeOutExpo">4.6l V8 Engine</div>
                 <div class="caption lfr medium_grey"  data-x="480" data-y="330" data-speed="900" data-start="1400" data-easing="easeOutExpo">20 inch Rims</div>
             </li>
 
             <!-- SLIDE UP -->
-            <li data-transition="slideup" data-slotamount="20" data-masterspeed="300" data-delay="25000" data-thumb="http://www.blue-broker.com.br/us/layout/modulos/banner/img/thumbs/regular_thumb5.jpg">
-                <img src="http://www.blue-broker.com.br/us/layout/modulos/banner/img/slides/image20.jpg"  >
+            <li data-transition="slideup" data-slotamount="20" data-masterspeed="300" data-delay="25000" data-thumb="http://www.blue-broker.com.br/global/layout/modulos/banner/img/thumbs/regular_thumb5.jpg">
+                <img src="http://www.blue-broker.com.br/global/layout/modulos/banner/img/slides/image20.jpg"  >
                 <div class="caption lfb boxshadow" data-x="70" data-y="120" data-speed="900" data-start="500" data-easing="easeOutBack"><iframe src="http://player.vimeo.com/video/29298709?title=0&amp;byline=0&amp;portrait=0;api=1" width="460" height="259"></iframe></div>
                 <div class="caption sft big_black"  data-x="550" data-y="120" data-speed="300" data-start="1200" data-easing="easeOutExpo">Video Support</div>
                 <div class="caption sft big_white"  data-x="550" data-y="157" data-speed="300" data-start="1300" data-easing="easeOutExpo">Vimeo Example</div>
@@ -95,8 +95,8 @@
             </li>
 
             <!-- SLOTZOOM VERTICAL -->
-            <li data-transition="slotzoom-vertical" data-slotamount="14"  data-masterspeed="300" data-delay="25000" data-thumb="http://www.blue-broker.com.br/us/layout/modulos/banner/img/thumbs/regular_thumb6.jpg">
-                <img src="http://www.blue-broker.com.br/us/layout/modulos/banner/img/slides/image22.jpg"  >
+            <li data-transition="slotzoom-vertical" data-slotamount="14"  data-masterspeed="300" data-delay="25000" data-thumb="http://www.blue-broker.com.br/global/layout/modulos/banner/img/thumbs/regular_thumb6.jpg">
+                <img src="http://www.blue-broker.com.br/global/layout/modulos/banner/img/slides/image22.jpg"  >
                 <div class="caption lft boxshadow" data-x="70" data-y="120" data-speed="900" data-start="500" data-easing="easeOutBack"><iframe src="http://www.youtube.com/embed/YHWkro9-e9Q?hd=1&amp;wmode=opaque&amp;controls=1&amp;showinfo=0" width="460" height="259"></iframe></div>
                 <div class="caption sft big_black"  data-x="550" data-y="120" data-speed="300" data-start="1200" data-easing="easeOutExpo">Video Support</div>
                 <div class="caption sft big_white"  data-x="550" data-y="157" data-speed="300" data-start="1300" data-easing="easeOutExpo">Youtube Example</div>
@@ -106,8 +106,8 @@
             </li>
 
             <!-- CURTAIN 3 -->
-            <li data-transition="curtain-3" data-slotamount="20"  data-masterspeed="300" data-thumb="http://www.blue-broker.com.br/us/layout/modulos/banner/img/thumbs/regular_thumb7.jpg">
-                <img src="http://www.blue-broker.com.br/us/layout/modulos/banner/img/slides/image21.jpg"  >
+            <li data-transition="curtain-3" data-slotamount="20"  data-masterspeed="300" data-thumb="http://www.blue-broker.com.br/global/layout/modulos/banner/img/thumbs/regular_thumb7.jpg">
+                <img src="http://www.blue-broker.com.br/global/layout/modulos/banner/img/slides/image21.jpg"  >
                 <div class="caption lft" data-x="330" data-y="156" data-speed="900" data-start="500" data-easing="easeOutExpo"><img src="img/slides/burger.png"></div>
                 <div class="caption lft" data-x="450" data-y="18" data-speed="900" data-start="700" data-easing="easeOutExpo"><img src="img/slides/coke.png"></div>
                 <div class="caption sft big_orange"  data-x="80" data-y="340" data-speed="900" data-start="1200" data-easing="easeOutBack">Serving you the Ultimate Slider</div>

@@ -1,4 +1,5 @@
-<link rel="stylesheet" type="text/css" href="http://www.blue-broker.com.br/us/layout/modulos/top/css/top.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="http://www.blue-broker.com.br/global/modulos/top/css/top.css" media="screen" />
+
 <div id="top_search">
     <div id="search-field">
 
@@ -11,6 +12,3 @@
     </div>
     <div id="basetop">&nbsp;</div
 </div>
-
-
-<script src="<?=$PATHLIB?>js/primary.js"></script>

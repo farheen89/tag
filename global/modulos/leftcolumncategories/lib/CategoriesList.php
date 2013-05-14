@@ -1,8 +1,8 @@
 <?php
 
-include_once $PATHDB.'Functions.php';
+include_once $PATH_DB_GLOBAL.'Functions.php';
 
-class ListaCategorias extends Functions {
+class CategoriesList extends Functions {
 
     protected $_table = "pages";
     private $title = null;

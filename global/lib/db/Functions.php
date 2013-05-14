@@ -20,7 +20,7 @@ abstract class Functions{
 
     public function listar(){
         $db = $this->getDb();
-        $stmt = $db->prepare("SELECT title FROM " . $this->_table);
+        $stmt = $db->prepare("SELECT * FROM " . $this->_table);
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }

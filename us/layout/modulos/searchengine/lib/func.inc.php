@@ -1,5 +1,8 @@
 <?php
 
+include_once $PATH_MODULOS_US.'searchengine/lib/SearchEngine.php';
+//$results = new SearchEngine();
+
 function search_results($keywords){
     $returned_results = array();
     $where = "";
@@ -15,7 +18,7 @@ function search_results($keywords){
         }
     }
 
-        $results = "SELECT `title`, LEFT(`description`, 70) as `description`, `url` FROM `articles` WHERE $where";
+        //$results = "SELECT `title`, LEFT(`description`, 70) as `description`, `url` FROM `articles` WHERE $where";
         $results_num = ($results = mysql_query($results)) ? mysql_num_rows($results) : 0 ;
 
         if($results_num === 0){

@@ -18,7 +18,7 @@ function search_results($keywords){
         }
     }
 
-        //$results = "SELECT `title`, LEFT(`description`, 70) as `description`, `url` FROM `articles` WHERE $where";
+        $results = "SELECT `title`, LEFT(`description`, 70) as `description`, `url` FROM `articles` WHERE $where";
         $results_num = ($results = mysql_query($results)) ? mysql_num_rows($results) : 0 ;
 
         if($results_num === 0){

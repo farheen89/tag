@@ -3,38 +3,40 @@
 include_once '../core/config/General.php';
 include_once $PATH_MODULOS_US.'searchengine/lib/func.inc.php';
 
-$searchwords = $_POST['searchwords'];
+if(isset($_POST['searchwords'])){
 
-    $keywords = htmlentities(trim($searchwords));
+    $suffix = "";
 
-    if(empty($keywords)){
-        echo 'Please enter a search term';
-    }elseif (strlen($keywords)<2){
-        echo 'Your search term must be two or more characteres';
-    }else{
-        echo $keywords;
-    }
+    $keywords = htmlentities(trim($_POST['searchwords']));
 
-/*}elseif (search_results($keywords) === false){
-        $errors[] = 'Your search for '.$keywords.' returned no results';*/
+    $errors = array();
 
-        /*
+if(empty($keywords)){
+    $errors[] = 'Please enter a search term';
+}else if (strlen($keywords)<2){
+    $errors[] = 'Your search term must be two or more characteres';
+}else if(search_results($keywords) === false){
+    $errors[] = 'Your search for '.$keywords.' returned no results';
+}
 
-            $results = search_results($keywords);
-            $results_num = count($results);
+    if(empty($errors)){
 
-            $suffix = ($results_num !=1) ? 's' : '';
+        $results = search_results($keywords);
+        $results_num = count ($results);
 
-            echo '<p>Your search for <strong>', $keywords, '</strong> returned <strong>', $results_num, '</strong> result', $suffix, '</p>';
+        $suffix = ($results_num != 1) ? 's' : '';
+
+        echo '<p>Your search for <strong>'.$keywords.'</strong> returned <strong>'.$results_num.'</strong> result'.$suffix.'</p>';
 
             foreach($results as $result){
-                echo '<p><strong>', $result['title'], '</strong><br> ', $result['description'], ' <br><a href="', $result['url'] ,'" target="_balnk">', $result['url'], '</a></p>';
+                echo '<p><strong>'. $result['title'].'</strong><br>';
             }
 
-        }else{
-            foreach($errors as $error){
-                echo $error, '</br>';
-            }
+    }else{
+        foreach($errors as $error){
+            echo $error,'</br>';
         }
-    }*/
+    }
+
+}
 ?>

@@ -6,8 +6,17 @@ abstract class Functions{
 
     protected $id = null;
     protected $_table = null;
-    protected $where = null;
+    protected $key = null;
 
+    public function setKey($key)
+    {
+        $this->key = $key;
+    }
+
+    public function getKey()
+    {
+        return $this->key;
+    }
 
     public function setId($id)
     {
@@ -22,13 +31,6 @@ abstract class Functions{
     public function listar(){
         $db = $this->getDb();
         $stmt = $db->prepare("SELECT * FROM " . $this->_table);
-        $stmt->execute();
-        return $stmt->fetchAll(PDO::FETCH_ASSOC);
-    }
-
-    public function searchengine(){
-        $db = $this->getDb();
-        $stmt = $db->prepare("SELECT * FROM " . $this->_table . "WHERE" . $this->where);
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }

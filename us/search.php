@@ -2,6 +2,7 @@
 
 include_once '../core/config/General.php';
 include_once $PATH_MODULOS_US.'searchengine/lib/func.inc.php';
+include_once $PATH_MODULOS_US.'searchengine/lib/SearchEngine.php';
 
 if(isset($_POST['searchwords'])){
 
@@ -29,7 +30,7 @@ if(empty($keywords)){
         echo '<p>Your search for <strong>'.$keywords.'</strong> returned <strong>'.$results_num.'</strong> result'.$suffix.'</p>';
 
             foreach($results as $result){
-                echo '<p><strong>'. $result['title'].'</strong><br>';
+                echo '<p><strong>'. $result['Title'].'</strong><br>';
             }
 
     }else{
@@ -37,6 +38,6 @@ if(empty($keywords)){
             echo $error,'</br>';
         }
     }
-
 }
+
 ?>

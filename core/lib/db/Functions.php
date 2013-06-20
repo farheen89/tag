@@ -29,7 +29,7 @@ abstract class Functions{
         $stmt = $db->prepare("SELECT Title FROM " . $this->_table . " WHERE Brand LIKE :id");
         $stmt->bindValue(":id",$this->getId());
         $stmt->execute();
-        return $stmt->fetch(PDO::FETCH_ASSOC);
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
     public function getDb(){

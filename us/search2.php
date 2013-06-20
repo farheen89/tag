@@ -6,35 +6,43 @@ include_once $PATH_MODULOS_US.'searchengine/lib/SearchEngine2.php';
 
 if(isset($_POST['searchwords'])){
 
-    $where = "";
+    $where = null;
 
     $keywords = htmlentities(trim($_POST['searchwords']));
 
-    //$keywords = preg_split('/[\s]+/', $keywords);
+    $keywords = preg_split('/[\s]+/', $keywords);
 
     $total_keywords = count($keywords);
 
     //$where = "%".$keywords."%";
 
-    $keywords = "%$keywords%";
-    echo '</br>'.$total_keywords.'</br>';
-    echo $keywords;
+    echo $total_keywords.'</br>';
+    //echo $where.'</br>';
+    print_r($keywords);
 
+    echo '</br>';
+
+    //    $result = new SearchEngine2();
+    //    $result->setId($where);
+    //    print_r($result->searchengine());
+
+    // echo '</br>';
+
+    $resultsarray = array();
+
+    foreach($keywords as $keyword){
+        $where = "%".$keyword."%";
         $result = new SearchEngine2();
-        $result->setId($keywords);
-        print_r($result->searchengine());
+        $result->setId($where);
+        $results = $result->searchengine();
+        $resultsarray[]=$results;
 
+   }
+
+    $resultsarray = array_unique($resultsarray);
+    print_r($resultsarray);
+    echo '</br>';
 }
 
-
-/* Depois tentar isso
-
-<?php
-while ($linha = $consulta->fetch(PDO::FETCH_ASSOC)) {
-    // aqui eu mostro os valores de minha consulta
-    echo "Nome: {$linha['nome']} - Usuário: {$linha['usuario']}<br />";
-}
-?>
-*/
 
 ?>

@@ -3,7 +3,7 @@
 
 <div id="top_search">
     <div id="search-field">
-            <form action="http://www.blue-broker.com.br/us/search2.php" method="POST">
+            <form action="http://www.blue-broker.com.br/us/search.php" method="POST">
             <input id="search_form" type="text" name="searchwords" value="" onKeyUp="lookup(this.value);" onBlur="fill();" />
             <div id="dropdown">
 

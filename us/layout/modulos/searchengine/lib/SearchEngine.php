@@ -1,4 +1,21 @@
 <?php
 
-mysql_connect('localhost', 'blueb123_user1', 'olg1xgq3');
-mysql_select_db('blueb123_tag');
+include_once $PATH_DB_CORE.'Functions.php';
+
+class SearchEngine2 extends Functions {
+
+    protected $_table = "tbl_products";
+    protected $Title = null;
+
+
+    public function setTitle($Title)
+    {
+        $this->Title = $Title;
+    }
+
+    public function getTitle()
+    {
+        return $this->Title;
+    }
+
+}

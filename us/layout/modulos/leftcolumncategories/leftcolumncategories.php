@@ -3,19 +3,30 @@
 <?php
 include_once $PATH_MODULOS_CORE.'leftcolumncategories/lib/CategoriesList.php';
 $categorias = new CategoriesList();
-
 ?>
 
 <div id="categories_box">
     <div id="categories_title">
         <?php
-        foreach ($categorias->listar() as $cat){
-            echo $cat['title'];
+        foreach ($categorias->listAll() as $cat){
+            echo $cat['desc'];
         }
         ?>
     </div>
     <div id="categories_line">
-        &nbsp;
+        <?
+        $categorias = new CategoriesList();
+        $where = "";
+        $like = "";
+        $order = "";
+        $categorias->setWhere($where);
+        $categorias->setLike($like);
+        $categorias->setOrder($order);
+        $categoriass = $categorias->listWhereOrder();
+        foreach ($categoriass as $cat){
+        echo $cat['desc'];
+        }
+        ?>
     </div>
 
 </div>

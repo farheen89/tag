@@ -50,28 +50,9 @@ abstract class Functions{
         return $this->like;
     }
 
-
-    public function listAll(){
+    public function listWhereLikeOrder(){
         $db = $this->getDb();
-        $stmt = $db->prepare("SELECT * FROM " . $this->_table);
-        $stmt->execute();
-        return $stmt->fetchAll(PDO::FETCH_ASSOC);
-    }
-
-    public function listWhereOrder(){
-        $db = $this->getDb();
-        $stmt = $db->prepare("SELECT * FROM " . $this->_table . " :where :like :order");
-        $stmt->bindValue(":where",$this->getWhere());
-        $stmt->bindValue(":like",$this->getLike());
-        $stmt->bindValue(":order",$this->getOrder());
-        $stmt->execute();
-        return $stmt->fetchAll(PDO::FETCH_ASSOC);
-    }
-
-    public function listAllFooterOrder(){
-        $db = $this->getDb();
-        $stmt = $db->prepare("SELECT * FROM " . $this->_table . " WHERE source LIKE :id AND language LIKE 'en' ORDER BY 'order'");
-        $stmt->bindValue(":id",$this->getId());
+        $stmt = $db->prepare("SELECT * FROM " . $this->_table . " WHERE " . $this->getWhere() . " LIKE " . $this->getLike() . " ORDER BY " . $this->getOrder());
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }

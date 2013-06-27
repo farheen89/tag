@@ -72,3 +72,8 @@ input:focus {
 textarea:focus{
     outline:none;
 }
+
+#language{
+    height: 10px;
+    width: 1200px;
+}

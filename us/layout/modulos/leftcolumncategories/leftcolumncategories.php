@@ -8,23 +8,31 @@ $categorias = new CategoriesList();
 <div id="categories_box">
     <div id="categories_title">
         <?php
-        foreach ($categorias->listAll() as $cat){
-            echo $cat['desc'];
+        $categorias = new CategoriesList();
+        $where = "type";
+        $like = "'title'";
+        $order = "`order`";
+        $categorias->setWhere($where);
+        $categorias->setLike($like);
+        $categorias->setOrder($order);
+        $categoriass = $categorias->listWhereLikeOrder();
+        foreach ($categoriass as $cat){
+            echo $cat['desc'].'</br>';
         }
         ?>
     </div>
     <div id="categories_line">
         <?
         $categorias = new CategoriesList();
-        $where = "";
-        $like = "";
-        $order = "";
+        $where = "type";
+        $like = "'Category'";
+        $order = "`order`";
         $categorias->setWhere($where);
         $categorias->setLike($like);
         $categorias->setOrder($order);
-        $categoriass = $categorias->listWhereOrder();
+        $categoriass = $categorias->listWhereLikeOrder();
         foreach ($categoriass as $cat){
-        echo $cat['desc'];
+        echo $cat['desc'].'</br><HR>';
         }
         ?>
     </div>

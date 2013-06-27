@@ -11,5 +11,4 @@
             <button id="button-buscar" type="submit">SEARCH</button>
             </form>
     </div>
-    <div id="basetop">&nbsp;</div
 </div>

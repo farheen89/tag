@@ -8,11 +8,17 @@ body {
 }
 
 a:link{
-    color: #000000;
+    text-decoration: none;
+    font-family: calibri;
+    font-size: 14px;
+    color: #686767;
 }
 
 a:visited{
-    color: #000000;
+    text-decoration: none;
+    font-family: calibri;
+    font-size: 14px;
+    color: #686767;
 }
 
 #footer{

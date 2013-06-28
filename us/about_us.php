@@ -8,9 +8,7 @@
     </div>
 
     <div id="main">
-        <div id="about_us">
-            Teste
-        </div>
+        <?php include_once $PATH_MODULOS_US.'cms/about_us.php'?>
     </div>
 
     <div id="footer">

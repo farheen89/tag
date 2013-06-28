@@ -4,7 +4,7 @@ include_once $PATH_MODULOS_CORE.'cms/lib/CmsList.php';
 
 $cms = new CmsList();
 $where = "url";
-$like = "'about_us_pt.php'";
+$like = "'careers.php'";
 $order = "`order`";
 $cms->setWhere($where);
 $cms->setLike($like);

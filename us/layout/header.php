@@ -4,5 +4,5 @@
 <meta name="keywords" content="preço, valor, desconto, suplementos, esporte, sport" />
 <meta name="description" content="O melhor site de pesquisa de preços de produtos esportivos e suplementos" />
 <link rel="stylesheet" href="<?=$PATH_CSS_US?>layout.css" type="text/css" media="all">
-<title>Titulo</title>
+<title>Sporting Tag</title>
 </head>

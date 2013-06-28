@@ -2,13 +2,10 @@
 
 
 <div id="top_search">
-    <div id="search-field">
-            <form action="http://www.blue-broker.com.br/us/search.php" method="POST">
-            <input id="search_form" type="text" name="searchwords" value="" onKeyUp="lookup(this.value);" onBlur="fill();" />
-            <div id="dropdown">
-
-            </div>
-            <button id="button-buscar" type="submit">SEARCH</button>
+        <div id="search-field">
+            <form id="form_search" action="http://www.blue-broker.com.br/us/search.php" method="POST">
+                <input id="search_form" type="text" name="searchwords" value="" onKeyUp="lookup(this.value);" onBlur="fill();" />
+                <button id="button-buscar" type="submit">SEARCH</button>
             </form>
-    </div>
+        </div>
 </div>

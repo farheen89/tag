@@ -2,7 +2,6 @@
 
 <?php
 include_once $PATH_MODULOS_CORE.'leftcolumncategories/lib/CategoriesList.php';
-$categorias = new CategoriesList();
 ?>
 
 <div id="categories_box">

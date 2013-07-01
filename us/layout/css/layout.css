@@ -38,7 +38,7 @@ a:visited{
     margin: 0 auto;
     text-align: center;
     width: 1190;
-    height: 740px;
+    min-height: 740px;
     padding-top: 20px;
 }
 

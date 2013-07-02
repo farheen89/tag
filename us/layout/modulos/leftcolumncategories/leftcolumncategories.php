@@ -16,7 +16,7 @@ include_once $PATH_MODULOS_CORE.'leftcolumncategories/lib/CategoriesList.php';
         $categorias->setOrder($order);
         $categoriass = $categorias->listWhereLikeOrder();
         foreach ($categoriass as $cat){
-            echo $cat['desc'].'</br>';
+            echo $cat['category'].'</br>';
         }
         ?>
     </div>
@@ -31,7 +31,7 @@ include_once $PATH_MODULOS_CORE.'leftcolumncategories/lib/CategoriesList.php';
         $categorias->setOrder($order);
         $categoriass = $categorias->listWhereLikeOrder();
         foreach ($categoriass as $cat){
-        echo $cat['desc'].'</br><HR>';
+        echo $cat['category'].'</br><HR>';
         }
         ?>
     </div>

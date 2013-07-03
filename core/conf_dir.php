@@ -10,7 +10,7 @@ echo "<font size=\"4\"><strong>Diretorio Raiz /: </strong></font>".$ROOTPATH."<b
 
 echo "<font size=\"4\"><strong>Diretorio da pasta \"/core/\": </strong></font>".$ROOT_CORE."<br><br>";
 
-echo "<font size=\"4\"><strong>Diretorio da pasta \"/core/modulos/\": </strong></font>".$PATH_MODULOS_CORE."<br><br>";
+echo "<font size=\"4\"><strong>Diretorio da pasta \"/core/modules/\": </strong></font>".$PATH_MODULOS_CORE."<br><br>";
 
 echo "<font size=\"4\"><strong>Diretorio da pasta \"/core/lib/\": </strong></font>".$PATH_LIB_CORE."<br><br>";
 

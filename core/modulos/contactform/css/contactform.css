@@ -1,0 +1,65 @@
+#contactform{
+    width: 500px;
+    height: 400px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#labels{
+    width: 80px;
+    height: 300px;
+    text-align: left;
+    float: left;
+    color: #686767;
+    font-size: 18px;
+    font-family: calibri;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+input{
+    line-height: 20px;
+    color: #686767;
+    font-family: calibri;
+    font-size: 16px;
+    border: 1px solid #666666;
+    padding: 3 3 3 6;
+    margin-bottom: 5px;
+}
+
+textarea{
+    line-height: 20px;
+    color: #686767;
+    font-family: calibri;
+    font-size: 16px;
+    border: 1px solid #666666;
+    padding: 3 3 3 6;
+}
+
+#labels_space{
+    width: 5px;
+    height: 300px ;
+    float: left;
+}
+
+#formfields{
+    width: 415px;
+    height: 300px;
+    float: right;
+    line-height: 30px;
+}
+
+#advise{
+    height: 40px;
+    line-height: 40px;
+    color: #000000;
+    font-size: 14px;
+    font-family: calibri;
+    text-align: center;
+}
+
+#button_submit{
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}

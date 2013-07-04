@@ -4,7 +4,7 @@
 
 <div id="page">
     <div id="top">
-        <?php include_once $PATH_MODULOS_US.'top/top.php' ?>
+        <?php include_once $PATH_MODULOS_US.'top/top_es.php' ?>
     </div>
 
     <div id="main">
@@ -12,6 +12,6 @@
     </div>
 
     <div id="footer">
-        <?php include_once $PATH_MODULOS_US.'footer/footer.php' ?>
+        <?php include_once $PATH_MODULOS_US.'footer/pie.php' ?>
     </div>
 </div>

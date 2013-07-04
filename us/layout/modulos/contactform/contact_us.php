@@ -20,7 +20,7 @@ if(isset($_POST['submit']))
 
 	if(empty($name)||empty($visitor_email))
 	{
-		$errors .= "\n Name and Email are required fields. ";	
+		$errors .= "\n Name and Email are required fields. ";
 	}
 	if(IsInjected($visitor_email))
 	{
@@ -32,7 +32,7 @@ if(isset($_POST['submit']))
 	//Note: the captcha code is compared case insensitively.
 	//if you want case sensitive match, update the check above to
 	// strcmp()
-		$errors .= "\n The captcha code does not match!";
+		$errors .= "The captcha code does not match!";
 	}
 	
 	if(empty($errors))
@@ -55,7 +55,7 @@ if(isset($_POST['submit']))
 		
 		mail($to, $subject, $body,$headers);
 
-        echo "<meta HTTP-EQUIV='Refresh' CONTENT='0;URL=http://blue-broker.com.br/us/layout/modulos/contactform/thank-you.html'>";
+        echo "<meta HTTP-EQUIV='Refresh' CONTENT='0;URL=http://blue-broker.com.br/us/thank_you.php'>";
 	}
 }
 
@@ -80,11 +80,19 @@ function IsInjected($str)
     return false;
   }
 }
-
-if(!empty($errors)){
-echo "<p class='err'>".nl2br($errors)."</p>";
-}
 ?>
+<div id="emailformtitle">Contact Us</div>
+<div id="error_space">&nbsp;</div>
+<div id="errorfield">
+<div class='err'><?php if(!empty($errors)){
+    echo $errors;
+}
+?></div>
+<div id='contact_form_name_errorloc' class='err'></div>
+<div id='contact_form_email_errorloc' class='err'></div>
+</div>
+
+<div id="error_space">&nbsp;</div>
 
 <div id="contactform">
 <form method="POST" name="contact_form" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>">
@@ -95,28 +103,29 @@ Message:</br>
 </div>
 <div id="labels_space">&nbsp;</div>
 <div id="formfields">
-<input type="text" name="name" value='<?php echo htmlentities($name) ?>'></br>
-<input type="text" name="email" value='<?php echo htmlentities($visitor_email) ?>'></br>
-<textarea name="message" rows=10 cols=41><?php echo htmlentities($user_message) ?></textarea></br>
+<input type="text" name="name" size="45" value='<?php echo htmlentities($name) ?>'></br>
+<input type="text" name="email" size="45" value='<?php echo htmlentities($visitor_email) ?>'></br>
+<textarea name="message" rows=10 cols=45><?php echo htmlentities($user_message) ?></textarea></br>
 </div>
-<label for='message'>Enter the code here :</label>
-<input id="6_letters_code" name="6_letters_code" type="text"><img src="http://blue-broker.com.br/core/modulos/contactform/captcha_code_file.php?rand=<?php echo rand(); ?>" id='captchaimg' ></br>
-<div id='advise'>Can't read the image? click <a href='javascript: refreshCaptcha();'>here</a> to refresh</div>
+<div id="captchatext">Enter the code here :
+<input id="6_letters_code" name="6_letters_code" type="text"></div><div id="captcha"><img src="http://blue-broker.com.br/core/modulos/contactform/captcha_code_file.php?rand=<?php echo rand(); ?>" id='captchaimg' ></div>
+<div id="advise">Can't read the image? Click <a href='javascript: refreshCaptcha();'><font color="#FF000" size="4" face="calibri"><strong>here</strong></font></a> to refresh</div>
 <div id='button_submit'><input type="submit" value="Submit" name='submit'></div>
 </form>
 </div>
+
+
 <script language="JavaScript">
 // Code for validating the form
 // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
 // for details
 var frmvalidator  = new Validator("contact_form");
 //remove the following two lines if you like error message box popups
-frmvalidator.EnableOnPageErrorDisplaySingleBox();
+frmvalidator.EnableOnPageErrorDisplay();
 frmvalidator.EnableMsgsTogether();
-
-frmvalidator.addValidation("name","req","Please provide your name");
-frmvalidator.addValidation("email","req","Please provide your email");
-frmvalidator.addValidation("email","email","Please enter a valid email address");
+frmvalidator.addValidation("name","req","Please provide your name.");
+frmvalidator.addValidation("email","req","Please provide your email.");
+frmvalidator.addValidation("email","email","Please enter a valid email address.");
 </script>
 <script language='JavaScript' type='text/javascript'>
 function refreshCaptcha()
@@ -125,5 +134,3 @@ function refreshCaptcha()
 	img.src = img.src.substring(0,img.src.lastIndexOf("?"))+"?rand="+Math.random()*1000;
 }
 </script>
-</body>
-</html>

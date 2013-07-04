@@ -1,7 +1,41 @@
 #contactform{
     width: 500px;
-    height: 400px;
+    height: 500px;
     text-align: left;
+    margin: 0 auto;
+}
+
+#emailformtitle{
+    width: 500px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: calibri;
+    color: #1d78cb;
+}
+
+#error_space{
+    height: 40px;
+    width: 500px;
+    line-height: 40px;
+}
+
+.err{
+    font-family : calibri;
+    font-size : 16px;
+    line-height: 20px;
+    font-weight: bold;
+    color: red;
+    height: 20px;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+}
+
+#error_space{
+    width: 500px;
+    height: 20px;
     margin: 0 auto;
 }
 
@@ -50,16 +84,57 @@ textarea{
 }
 
 #advise{
+    width: 500px;
     height: 40px;
     line-height: 40px;
-    color: #000000;
-    font-size: 14px;
+    color: #686767;
+    font-size: 18px;
     font-family: calibri;
     text-align: center;
+    float: left;
 }
 
 #button_submit{
+    width: 500px;
     text-align: center;
     height: 30px;
     line-height: 30px;
+    float: left;
+}
+
+#captchatext{
+    font-size: 18px;
+    width: 360px;
+    height: 40px;
+    font-family: calibri;
+    font-weight: bold;
+    line-height: 40px;
+    color: #686767;
+    float: left;
+    text-align: left;
+}
+
+#captcha{
+    font-size: 18px;
+    width: 140px;
+    height: 40px;
+    font-family: calibri;
+    font-weight: bold;
+    line-height: 40px;
+    color: #686767;
+    float: left;
+    text-align: left;
+}
+
+#thank_you{
+    width: 400px;
+    height: 200px;
+    padding-top: 60px;
+    font-family: calibri;
+    font-size: 30px;
+    color: #1d78cb;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 50px;
 }

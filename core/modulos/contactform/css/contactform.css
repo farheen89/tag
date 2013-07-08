@@ -5,6 +5,13 @@
     margin: 0 auto;
 }
 
+#signform{
+    width: 500px;
+    height: 550px;
+    text-align: left;
+    margin: 0 auto;
+}
+
 #emailformtitle{
     width: 500px;
     height: 50px;
@@ -51,6 +58,19 @@
     line-height: 32px;
 }
 
+
+#signlabels{
+    width: 80px;
+    height: 360px;
+    text-align: left;
+    float: left;
+    color: #686767;
+    font-size: 18px;
+    font-family: calibri;
+    font-weight: bold;
+    line-height: 32px;
+}
+
 input{
     line-height: 20px;
     color: #686767;
@@ -76,9 +96,22 @@ textarea{
     float: left;
 }
 
+#signlabels_space{
+    width: 5px;
+    height: 360px ;
+    float: left;
+}
+
 #formfields{
-    width: 415px;
+    width: 410px;
     height: 300px;
+    float: right;
+    line-height: 30px;
+}
+
+#signformfields{
+    width: 410px;
+    height: 360px;
     float: right;
     line-height: 30px;
 }

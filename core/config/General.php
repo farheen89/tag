@@ -5,7 +5,7 @@ error_reporting(E_ALL);
 /*Configuration to global path*/
 $ROOTPATH   	         = $_SERVER['DOCUMENT_ROOT']."/";
 $ROOT_CORE               = $ROOTPATH."core/";
-$PATH_MODULOS_CORE   	 = $ROOT_CORE."modules/";
+$PATH_APP_CORE   	     = $ROOT_CORE."app/";
 $PATH_LIB_CORE           = $ROOT_CORE."lib/";
 $PATH_DB_CORE            = $ROOT_CORE."lib/db/";
 $PATH_JS_CORE            = $ROOT_CORE."lib/js/";
@@ -13,7 +13,7 @@ $PATH_JS_CORE            = $ROOT_CORE."lib/js/";
 /*Configuration to US Page*/
 $ROOT_US                 = $ROOTPATH."us/";
 $PATH_LAYOUT_US 	     = $ROOT_US."layout/";
-$PATH_MODULOS_US         = $ROOT_US."layout/modules/";
+$PATH_APP_US             = $ROOT_US."layout/app/";
 $PATH_CSS_US	         = "http://www.blue-broker.com.br/us/layout/css/";
 
 /*Configuration to BR Page*/

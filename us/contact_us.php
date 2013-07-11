@@ -4,14 +4,14 @@
 
 <div id="page">
     <div id="top">
-        <?php include_once $PATH_MODULOS_US.'top/top.php' ?>
+        <?php include_once $PATH_APP_US.'top/top.php' ?>
     </div>
 
     <div id="main">
-        <?php include_once $PATH_MODULOS_US.'contactform/contact_us.php'?>
+        <?php include_once $PATH_APP_US.'cms/contact_us.php'?>
     </div>
 
     <div id="footer">
-        <?php include_once $PATH_MODULOS_US.'footer/footer.php' ?>
+        <?php include_once $PATH_APP_US.'footer/footer.php' ?>
     </div>
 </div>

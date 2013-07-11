@@ -1,8 +1,8 @@
 <?php
 
 include_once '../core/config/General.php';
-include_once $PATH_MODULOS_US.'searchengine/lib/func.inc.php';
-include_once $PATH_MODULOS_US.'searchengine/lib/SearchEngine.php';
+include_once $PATH_APP_US.'searchengine/lib/func.inc.php';
+include_once $PATH_APP_US.'searchengine/lib/SearchEngine.php';
 
 if(isset($_POST['searchwords'])){
 

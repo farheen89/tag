@@ -1,8 +1,9 @@
-    <!-- get jQuery from the google apis -->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.js"></script>
+
     <!-- REVOLUTION BANNER CSS SETTINGS -->
     <link rel="stylesheet" type="text/css" href="http://www.blue-broker.com.br/core/app/banner/css/responsive.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="http://www.blue-broker.com.br/core/app/banner/css/settings.css" media="screen" />
+    <!-- get jQuery from the google apis -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.js"></script>
     <!-- REVOLUTION BANNER JS FILES  -->
     <script type="text/javascript" src="http://www.blue-broker.com.br/core/app/banner/js/jquery.themepunch.plugins.min.js"></script>
     <script type="text/javascript" src="http://www.blue-broker.com.br/core/app/banner/js/jquery.themepunch.revolution.min.js"></script>

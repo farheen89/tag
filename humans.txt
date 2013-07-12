@@ -1,0 +1,19 @@
+/* TEAM */
+
+Your title: Mauricio Mesquita.
+Site: contact@sportingtag.com
+Location: Rio de Janeiro, Brasil.
+
+
+
+/* THANKS */
+
+Name: sportingtag.com
+
+
+
+/* SITE */
+
+Last update: 2013/07/12
+Standards: PHP, CSS3, JS
+Components: jQuery

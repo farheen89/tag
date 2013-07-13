@@ -57,6 +57,13 @@ abstract class Functions{
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
+    public function searchengine2(){
+        $db = $this->getDb();
+        $stmt = $db->prepare("SELECT * FROM " . $this->_table . " WHERE " . $this->getWhere() . " LIKE " . $this->getLike());
+        $stmt->execute();
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
     public function searchengine(){
         $db = $this->getDb();
         $stmt = $db->prepare("SELECT Title FROM " . $this->_table . " WHERE Brand LIKE :id");

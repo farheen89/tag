@@ -1,6 +1,9 @@
 <link rel="stylesheet" type="text/css" href="http://www.blue-broker.com.br/core/app/footer/css/footer.css" media="screen" />
 
 <?php
+
+include_once $PATH_APP_CORE.'analytics/google.php';
+
 include_once $PATH_APP_CORE.'footer/lib/FooterList.php';
 $footer = new FooterList();
 ?>

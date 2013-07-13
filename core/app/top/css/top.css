@@ -2,10 +2,12 @@
 
 a:link{
     color: #000000;
+    text-decoration: none;
 }
 
 a:visited{
     color: #000000;
+    text-decoration: none;
 }
 
 #top_search{
@@ -69,4 +71,23 @@ input:focus {
 
 textarea:focus{
     outline:none;
+}
+
+#country_language{
+    float: right;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: calibri;
+    height: 24px;
+    line-height: 16px;
+    width: 220px;
+}
+
+#flag_field{
+    float: right;
+}
+
+.flag{
+    padding-left: 8px;
 }

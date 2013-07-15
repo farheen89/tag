@@ -8,7 +8,7 @@
     </div>
 
     <div id="main">
-        <?php include_once $PATH_APP_US.'searchengine/new_search.php'?>
+        <?php include_once $PATH_APP_US.'searchengine/search.php'?>
     </div>
 
     <div id="footer">

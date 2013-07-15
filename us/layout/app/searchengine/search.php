@@ -10,31 +10,36 @@ if(isset($_POST['searchwords'])){
 
     $keywords = htmlentities(trim($_POST['searchwords']));
 
-    $keywords = preg_split('/[\s]+/', $keywords);
+    $errors = array();
 
-    $total_keywords = count($keywords);
 
-    //echo $total_keywords.'</br>';
-
-    //print_r($keywords);
-
-    //echo '</br>';
-
-    $resultsarray = array();
-
-    foreach($keywords as $keyword){
-        $where = "%".$keyword."%";
-        $result = new SearchEngine2();
-        $result->setId($where);
-        $results = $result->searchengine();
-        $resultsarray[]=$results;
-
+    if(empty($keywords)){
+        $errors[] = 'Please enter a search term.';
+    }elseif(strlen($keywords)<3){
+        $errors[] = 'Your search term must be three or more characters.';
+    }else if (search_results($keywords) === false){
+        $errors[] = 'Your search for ' . $keywords . ' returned no results.';
     }
 
-    $resultsarray = array_unique($resultsarray);
-    print_r($resultsarray);
-    echo '</br>';
+    if(empty($errors)){
+
+        $results = search_results($keywords);
+        $countresults = count($results);
+
+        $suffix = ($countresults != 1) ? 's' : '';
+
+        echo 'Your search for <strong>' . $keywords . '</strong> returned <strong>' . $countresults . '</strong> result'. $suffix . '.</br></br>';
+
+        foreach($results as $result){
+            echo $result['title'].'</br>';
+        }
+
+
+    }else{
+        foreach($errors as $error){
+            echo $error.'<br>';
+        }
+    }
+
 }
-
-
 ?>

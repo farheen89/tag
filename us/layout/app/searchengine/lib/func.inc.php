@@ -3,36 +3,33 @@
 include_once $PATH_APP_US.'searchengine/lib/SearchEngine.php';
 
 function search_results($keywords){
-    $returned_results = array();
 
-    $results_num = "";
+    $returned_results = null;
+    $where = 'Brand';
+    $like = null;
+    $suffix = null;
 
-    $where = "";
+    $keywords = preg_split('/[\s,;]+/', $keywords);
 
-    $keywords = preg_split('/[\s]+/', $keywords);
-
-    $total_keywords = count($keywords);
-
-    foreach($keywords as $key=>$keyword){
-        $where .= "`Brand` LIKE '%$keyword%'";
-        if($key != ($total_keywords - 1)){
-            $where .= " AND ";
-        }
+    foreach($keywords as $keyword){
+        $like = "%".$keyword."%";
+        $result = new SearchEngine();
+        $result->setId($where);
+        $result->setId($like);
+        $results = $result->searchengine();
+        $countresults = count($results);
     }
 
-        $results = "SELECT `Title` FROM `tbl_products` WHERE $where";
-        $results_num = ($results = mysql_query($results)) ? mysql_num_rows($results) : 0 ;
+    if($countresults === 0){
+        return false;
+    }else{
 
-        if($results_num === 0){
-            return false;
-        }else{
+    foreach($results as $key=>$finalresult){
+        $returned_results[] = array('title' => $finalresult['Title']);
+    }
 
-            while ($results_row = mysql_fetch_assoc($results)){
-                $returned_results[] = array(
-                    'Title' => $results_row['Title']
-                );
-            }
-            return $returned_results;
+        return $returned_results;
 
-        }
+    }
+
 }

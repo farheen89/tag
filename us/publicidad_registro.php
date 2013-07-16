@@ -1,17 +1,17 @@
-<? include_once '../core/config/General.php'; ?>
+<? include_once '../core/pathconfig/General.php'; ?>
 
-<?php include_once $PATH_LAYOUT_US.'header.php'; ?>
+<?php include_once $PATH_US_HEADER.'header.php'; ?>
 
 <div id="page">
     <div id="top">
-        <?php include_once $PATH_APP_US.'top/topo.php' ?>
+        <?php include_once $PATH_US_APP.'top/topo.php' ?>
     </div>
 
     <div id="main">
-        <?php include_once $PATH_APP_US.'cms/publicidad_registro.php'?>
+        <?php include_once $PATH_US_APP.'cms/publicidad_registro.php'?>
     </div>
 
     <div id="footer">
-        <?php include_once $PATH_APP_US.'footer/rodape.php' ?>
+        <?php include_once $PATH_US_APP.'footer/rodape.php' ?>
     </div>
 </div>

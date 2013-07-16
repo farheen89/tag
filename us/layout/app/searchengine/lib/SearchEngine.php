@@ -1,6 +1,6 @@
 <?php
 
-include_once $PATH_DB_CORE.'Functions.php';
+include_once $PATH_CORE_DB.'Functions.php';
 
 class SearchEngine extends Functions {
 

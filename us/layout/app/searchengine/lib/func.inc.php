@@ -1,6 +1,6 @@
 <?php
 
-include_once $PATH_APP_US.'searchengine/lib/SearchEngine.php';
+include_once $PATH_US_APP.'searchengine/lib/SearchEngine.php';
 
 function search_results($keywords){
 

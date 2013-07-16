@@ -2,9 +2,9 @@
 
 <?php
 
-include_once $PATH_APP_CORE.'analytics/google.php';
+include_once $PATH_CORE_APP.'analytics/google.php';
 
-include_once $PATH_APP_CORE.'footer/lib/FooterList.php';
+include_once $PATH_CORE_APP.'footer/lib/FooterList.php';
 $footer = new FooterList();
 ?>
 

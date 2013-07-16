@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="http://www.blue-broker.com.br/core/app/leftcolumncategories/css/leftcolumncategories.css" media="screen" />
 
 <?php
-include_once $PATH_APP_CORE.'leftcolumncategories/lib/CategoriesList.php';
+include_once $PATH_CORE_APP.'leftcolumncategories/lib/CategoriesList.php';
 ?>
 
 <div id="categories_box">

@@ -1,5 +1,5 @@
 <?php
-include_once $PATH_APP_CORE.'cms/lib/CmsList.php';
+include_once $PATH_CORE_APP.'cms/lib/CmsList.php';
 
 
 $cms = new CmsList();
